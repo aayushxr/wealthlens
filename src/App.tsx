@@ -205,7 +205,7 @@ function SIPPieChart({ totalInvested, wealthGained }: { totalInvested: number; w
             )}
           />
           <Tooltip
-            formatter={(value: number) => formatINR(value)}
+            formatter={(value) => formatINR(value as number)}
             contentStyle={styles.tooltipStyle}
             labelStyle={{ fontFamily: 'var(--font-mono)', fontSize: '12px' }}
             itemStyle={{ fontFamily: 'var(--font-mono)', fontSize: '12px' }}
@@ -243,7 +243,7 @@ function SIPLineChart({ yearlyData }: { yearlyData: SIPResult['yearlyData'] }) {
             width={52}
           />
           <Tooltip
-            formatter={(value: number, name: string) => [formatINR(value), name === 'value' ? 'Portfolio Value' : 'Invested']}
+            formatter={(value, name) => [formatINR(value as number), name === 'value' ? 'Portfolio Value' : 'Invested']}
             contentStyle={styles.tooltipStyle}
             labelFormatter={(label) => `Year ${label}`}
             labelStyle={{ fontFamily: 'var(--font-mono)', fontSize: '12px', color: '#0D0D0D' }}
