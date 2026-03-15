@@ -4,7 +4,9 @@
 
 > Made by **Aayush Rajagopalan** and **Mahak Fahad** for the **FinCal Innovation Hackathon**
 
-> Live demo: [wlens.aayu.sh](https://wlens.aayu.sh)
+ Check it out at [wlens.aayu.sh](https://wlens.aayu.sh)
+
+![Demo](https://cdn.aayu.sh/488A4510-Screenshot%202026-03-15%20at%2011-47-49%20SIP%20Calculator.png)
 
 ---
 
