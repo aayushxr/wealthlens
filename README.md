@@ -1,8 +1,10 @@
-# fincal
+# WealthLens
 
 **An interactive SIP (Systematic Investment Plan) calculator for projecting investment growth.**
 
-> Live demo: _coming soon_
+> Made by **Aayush Rajagopalan** and **Mahak Fahad** for the **FinCal Innovation Hackathon**
+
+> Live demo: [wlens.aayu.sh](https://wlens.aayu.sh)
 
 ---
 
